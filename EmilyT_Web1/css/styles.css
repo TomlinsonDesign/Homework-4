@@ -334,6 +334,15 @@ template {
 /* ================================
         Header css
 ================================ */
+header {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". header .";
+  background-color: orange;
+  text-align: center; }
+  header > div {
+    grid-area: header; }
+
 /* ================================
         Footer css
 ================================ */
