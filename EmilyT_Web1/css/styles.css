@@ -373,8 +373,20 @@ header {
 ================================ */
 #section-3 {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-3 .";
   text-align: center; }
   #section-3 > div {
     grid-area: _section-3; }
+
+/* ================================
+        Section 4
+================================ */
+#section-4 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: ". section-4 .";
+  background-color: silver;
+  text-align: center; }
+  #section-4 > div {
+    grid-area: _section-4; }
