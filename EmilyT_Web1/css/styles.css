@@ -346,3 +346,14 @@ header {
 /* ================================
         Footer css
 ================================ */
+/* ================================
+        Section 1
+================================ */
+#section {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". section1 .";
+  background-color: pink;
+  text-align: center; }
+  #section > div {
+    grid-area: section1; }
