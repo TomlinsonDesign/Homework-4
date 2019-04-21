@@ -1,14 +1,13 @@
 /* ================================
         Section 2
 ================================ */
-#section-2 {
+#section-3 {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: ". section-2 .";
-  background-color: silver;
+  grid-template-areas: ". section-3 .";
   text-align: center;
 
   > div {
-    grid-area: _section-2;
+    grid-area: _section-3;
   }
 }

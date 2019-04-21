@@ -355,3 +355,26 @@ header {
   text-align: center; }
   #_section1 > div {
     grid-area: section1; }
+
+/* ================================
+        Section 2
+================================ */
+#section-2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: ". section-2 .";
+  background-color: silver;
+  text-align: center; }
+  #section-2 > div {
+    grid-area: _section-2; }
+
+/* ================================
+        Section 2
+================================ */
+#section-3 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: ". section-3 .";
+  text-align: center; }
+  #section-3 > div {
+    grid-area: _section-3; }
