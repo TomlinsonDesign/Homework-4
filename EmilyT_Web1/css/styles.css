@@ -345,6 +345,14 @@ header {
 /* ================================
         Footer css
 ================================ */
+footer {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". footer .";
+  text-align: center; }
+  footer > div {
+    grid-area: footer; }
+
 /* ================================
         Section 1
 ================================ */
@@ -390,3 +398,14 @@ header {
   text-align: center; }
   #section-4 > div {
     grid-area: _section-4; }
+
+/* ================================
+        Section 5
+================================ */
+#section-5 {
+  display: grid;
+  grid-template-areas: ". section-5 .";
+  background-color: blue;
+  text-align: center; }
+  #section-5 > div {
+    grid-area: _section-5; }
