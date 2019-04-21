@@ -358,7 +358,6 @@ footer {
 ================================ */
 #_section1 {
   display: grid;
-  grid-template-columns: auto;
   grid-template-areas: ". _section1 .";
   text-align: center; }
   #_section1 > div {
